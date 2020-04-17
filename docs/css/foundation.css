@@ -2493,11 +2493,11 @@ kbd {
       background-color: #126195;
       color: #fefefe; }
   .button.secondary {
-    background-color: #767676;
+    background-color: rgba(35, 71, 79, 0.9);
     color: #fefefe; }
     .button.secondary:hover, .button.secondary:focus {
       background-color: #5e5e5e;
-      color: #fefefe; }
+      color: #a19f9f; }
   .button.success {
     background-color: #3adb76;
     color: #0a0a0a; }

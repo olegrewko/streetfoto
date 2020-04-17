@@ -2,6 +2,7 @@ html {
   font-size: 100%;
   /* background-color: #F7F7F7;   */
 }
+
 body {
   background-color: #f7f7f7;
   font-family: "Montserrat", sans-serif;
@@ -70,9 +71,9 @@ a:hover {
 }
 
 .lightgray {
-  color: lightgray;
+  background-color: lightgray;
 }
-
+f
 .whitesmoke {
   color: whitesmoke;
 }
@@ -105,7 +106,8 @@ hr {
 .footer {
   background: #263846;
   /* background:#303441; */
-  padding-top: 30px;
+  padding-top: 1rem;
+  padding-bottom:1rem ;
   color: #636e74;
   font-weight: 300;
   font-size: 1rem;
@@ -120,7 +122,7 @@ footer {
 .footer-title {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
   color: #fff;
 }
 .footer-widget {
@@ -133,14 +135,15 @@ footer {
 }
 
 .tiny-footer {
-  font-size: 0.7rem;
+  background: #263846;
+  font-size: 0.6rem;
   padding-top: 0.9rem;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.0rem;
   font-weight: 600;
   background-color: transparent;
   border-top: 1px solid #636e74;
   color: #888d90;
-  line-height: 1;
+  line-height: 3;
 }
 
 .mlwh {
@@ -170,7 +173,7 @@ footer {
 
   margin: 0 auto;
   /* background-color: rgba(0, 129, 138, 0.2); */
- 
+
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 1.1rem;
@@ -181,7 +184,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  
+
   flex-wrap: wrap;
   border: 0px solid transparent;
   width: 100%;
@@ -207,7 +210,9 @@ footer {
 .dummy {
   height: 2.3rem;
 }
-
+.dummy08 {
+  height: 8rem;
+}
 ul li {
   list-style-type: none;
   margin-left: 0;
@@ -363,7 +368,10 @@ dt {
     height: 6rem;
   }
 }
-
+.df {
+  display: flex;
+  align-items: center;
+}
 /* .iframedflex {
       display: flex;
       justify-content: center;
@@ -419,7 +427,6 @@ dt {
 p {
   font-size: 1rem;
 }
-
 
 .deepblue {
   background: #05445c;
@@ -482,7 +489,9 @@ p.number {
 }
 .logo {
   font-size: 2rem;
+  margin-top: 0.2rem;
 }
+
 .marginleft {
   margin-left: 10px;
 }
@@ -493,7 +502,7 @@ p.number {
   color: maroon;
 }
 /****************************footer*************************************/
-
+/* 
 .marketing-site-footer {
   background: #2c3840;
   color: #8aa0ae;
@@ -579,7 +588,7 @@ p.number {
   .marketing-site-footer-bottom {
     text-align: center;
   }
-}
+} */
 
 /****************alb2000***********************/
 
